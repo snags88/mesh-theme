@@ -352,7 +352,7 @@ ul {
   margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  font-size: 120%;
+  font-size: 150%;
  
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
@@ -1710,7 +1710,7 @@ label.error { color: red; }
 }
 
 .widget_text {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /*-----------------------------------------------------------------------------------*/
