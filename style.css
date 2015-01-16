@@ -760,7 +760,10 @@ input[type="reset"]:active { color: #444444; }
 	overflow: hidden;
 }
 
-.post-media a, .post-media .hover-image {
+.post-media a, 
+.post-media .hover-image,
+.post-media .hover-image a
+ {
 	background: #ef9486 url(images/pattern.png) 0 0 repeat;
 	display: block;
 }
