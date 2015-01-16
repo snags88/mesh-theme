@@ -2191,7 +2191,11 @@ only screen and (min-resolution : 2dppx) {
     text-align: center;
 }
 
-.widget_mc4wp_widget,
+.widget_mc4wp_widget .widget-title {
+	text-align: left;
+}
+
+
 #mc4wp_email {
     text-align: center;
 }

@@ -53,7 +53,7 @@ $theme_options = get_theme_mod('zilla_theme_options');
 
 			<!-- BEGIN site-intro -->
 			<div class="site-intro">
-				<div id="logo" href="<?php echo home_url(); ?>">
+				<div id="logo">
 				<?php
 				if (isset($theme_options['general_text_logo'])||isset($theme_options['general_custom_logo'])) { ?>
 					<img src="<?php echo $theme_options['general_custom_logo']; ?>" alt="<?php bloginfo( 'name' ); ?>"/>

@@ -13,7 +13,7 @@ $category = get_the_category()
 	<div class="post-media">
 		<?php if( !is_singular() ) { ?>
 			<div class="hover-image">
-				<a href="http://instagram.com/lookmachine" target "_blank">
+				<a href="http://instagram.com/lookmachine" target="_blank">
 					<span><?php echo $category[0]->cat_name; ?></span>
 						<?php the_post_thumbnail(); ?>
 				</a>
