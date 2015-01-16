@@ -81,7 +81,7 @@ $theme_options = get_theme_mod('zilla_theme_options');
 			<?php get_sidebar(); ?>
             <div id="header-footer">
 			<p class="insta">
-                <a href="http://instagram.com/lookmachine/">
+                <a href="http://instagram.com/lookmachine/" target="_blank">
                     <i class="icon-instagramm"></i>
                 </a> 
             </p>
