@@ -441,11 +441,11 @@ ul {
     margin: 0;
 }
 
-#header {
+/*#header {
     position: fixed;
     overflow-y: auto;
     height: 100vh;
-}
+}*/
 
 .textwidget,
 .widget-title {
@@ -769,7 +769,7 @@ input[type="reset"]:active { color: #444444; }
 .post-media .hover-image,
 .post-media .hover-image a
  {
-	background: #ef9486 url(images/pattern.png) 0 0 repeat;
+	background: url(images/pattern.png) 0 0 repeat;
 	display: block;
 }
 

@@ -62,7 +62,7 @@ function zilla_theme_setup() {
 
 	/* Configure WP 2.9+ Thumbnails ---------------------------------------------*/
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 600, 450, true ); // Normal post thumbnails
+	set_post_thumbnail_size( 600, 450, true); // Normal post thumbnails
 	add_image_size('portfolio-thumb', 400, 300, true); // Main portfolio and archive pages
 	add_image_size( 'portfolio-admin-thumb', 35, 35, true ); // Used in the portfolio edit page
 
