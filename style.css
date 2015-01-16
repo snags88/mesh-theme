@@ -392,18 +392,23 @@ ul {
 */
 /********** 2a. Customizations ************/
 
-#logo > img {
+#logo img {
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-#logo:hover {
+#logo:hover, #logo a:visited {
     color: #000;
+    text-decoration: none;
+}
+
+#logo a:hover{
+	color: #ef9486;
+	text-decoration: none;
 }
 
 #header-title {
     text-align: center;
-    
 }
 
 .site-description {

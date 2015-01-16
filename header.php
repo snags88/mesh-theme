@@ -54,13 +54,15 @@ $theme_options = get_theme_mod('zilla_theme_options');
 			<!-- BEGIN site-intro -->
 			<div class="site-intro">
 				<div id="logo">
-				<?php
-				if (isset($theme_options['general_text_logo'])||isset($theme_options['general_custom_logo'])) { ?>
-					<img src="<?php echo $theme_options['general_custom_logo']; ?>" alt="<?php bloginfo( 'name' ); ?>"/>
-				<div id="header-title"><?php bloginfo( 'name' ); ?> </div>
-                <?php } else { ?>
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" width="70" height="70" />
-				<?php } ?>
+					<a href="http://instagram.com/lookmachine" target="_blank">
+						<?php
+						if (isset($theme_options['general_text_logo'])||isset($theme_options['general_custom_logo'])) { ?>
+							<img src="<?php echo $theme_options['general_custom_logo']; ?>" alt="<?php bloginfo( 'name' ); ?>"/>
+						<div id="header-title"><?php bloginfo( 'name' ); ?> </div>
+		                <?php } else { ?>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" width="70" height="70" />
+						<?php } ?>
+					</a>
 				</div>
 
 				<?php if ( isset($theme_options['general_display_description'])) {
