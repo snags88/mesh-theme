@@ -423,6 +423,7 @@ ul {
     max-width: 285px;
     margin-left:auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 #header-footer > p {
@@ -1710,7 +1711,7 @@ label.error { color: red; }
 }
 
 .widget_text {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -2200,6 +2201,9 @@ only screen and (min-resolution : 2dppx) {
 	text-align: left;
 }
 
+.mc4wp-form {
+	margin-bottom: 100px;
+}
 
 #mc4wp_email {
     text-align: center;
